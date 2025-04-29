@@ -3,7 +3,6 @@
 *.iml
 
 config.json
-config.*.json
 !config.test.json
 !config.example.json
 coverage/
