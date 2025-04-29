@@ -1,5 +1,5 @@
 {
-  "port": 10000,
-  "name": "Staticman",
-  "githubToken": "env:GITHUB_TOKEN",
+  "githubToken": process.env.GITHUB_TOKEN,
+  "rsaPrivateKey": JSON.stringify(process.env.RSA_PRIVATE_KEY),
+  "port": 8080
 }
