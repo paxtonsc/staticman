@@ -1,0 +1,8 @@
+{
+  "port": 10000,
+  "name": "Staticman",
+  "githubToken": "env:GITHUB_TOKEN",
+  "moderation": true,
+  "requireHttps": true,
+  "allowedOrigins": ["https://paxtonsc.github.io"]
+}
